@@ -17,8 +17,8 @@ if ($files and isset($_GET['count'])) {
                     $random_number = rand(1, $FOX_NUM);
                 } while (in_array( $random_number ,$foxNums ));
                 array_push($foxNums,$random_number);
-                array_push($image_paths,'https://randomfox.ca/images/'.$random_number.'.jpg');
-                array_push($links,'https://randomfox.ca/?i='.$random_number);
+                array_push($image_paths,'https://www.hostnetwork.xyz/randomfox/images/'.$random_number.'.jpg');
+                array_push($links,'https://www.hostnetwork.xyz/randomfox/?i='.$random_number);
                 $valid_request = TRUE;
             } 
         } else {
