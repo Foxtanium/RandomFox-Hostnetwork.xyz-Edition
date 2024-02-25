@@ -7,8 +7,8 @@ if ($files) {
     $FOX_NUM = count($files);
     $random_fox_index = rand(1, $FOX_NUM);
 
-    $image_path = 'https://randomfox.ca/images/'.$random_fox_index.'.jpg';
-    $link = 'https://randomfox.ca/?i='.$random_fox_index;
+    $image_path = 'https://www.hostnetwork.xyz/randomfox/images/'.$random_fox_index.'.jpg';
+    $link = 'https://www.hostnetwork.xyz/randomfox/?i='.$random_fox_index;
 } else {
     $image_path = null;
     $link = null;
